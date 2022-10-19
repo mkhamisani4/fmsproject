@@ -1,1 +1,23 @@
-System.out.println("Hello World");
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  
+  textSize(20)
+  text("Welcome to FMS Refiner", 75, 40)
+  
+  fill("blue")
+  rect(70, 60, 85, 85, 20);
+  
+  fill("red")
+  rect(70, 175, 85, 85, 20);
+  
+  fill("green")
+  rect(220, 175, 85, 85, 20);
+  
+  fill("black")
+  rect(220,60, 85, 85, 20);
+  
+}
